@@ -1,4 +1,4 @@
-/*.basic{
+.basic{
     font-size: var(--headiing2);
     font-weight: 700;
     letter-spacing: 0.15em;
@@ -11,4 +11,4 @@
     background-color: var(--gray-75);
     color: var(--white);
     font-size: var(--small-heading2);
-}*/
+}
