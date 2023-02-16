@@ -6,18 +6,18 @@ export default function Nav () {
     <nav>
       <ul className={styles.list}>
         <li>
-          <Link legacyBehavior href="/">
-            <>Home</>
+          <Link href='/' legacyBehavior>
+            <a>Home</a>
           </Link>
         </li>
         <li>
-          <Link legacyBehavior href="/about">
-            <>About</>
+          <Link href='/about' legacyBehavior>
+            <a>About</a>
           </Link>
         </li>
         <li>
-          <Link legacyBehavior href="/blog">
-            <>Blog</>
+          <Link href='/blog' legacyBehavior>
+            <a>Blog</a>
           </Link>
         </li>
       </ul>
