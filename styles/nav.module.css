@@ -1,6 +1,14 @@
-.list{
-    display: flex;
-    gap: 2em;
+/* デスクトップ*/
+@media (min-width: 768px) {
+    .btn {
+        display: none;
+    }
+
+
+    .list{
+        display: flex;
+        gap: 2em;
+    }
 }
 
 @media (hover: hover){
